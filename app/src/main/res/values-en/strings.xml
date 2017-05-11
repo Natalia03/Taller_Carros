@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Work_3Period</string>
+    <string name="Modelo">Model:</string>
+    <string name="Listarcarros">List Cars</string>
+    <string name="azulT">Blue Turqui</string>
+    <string name="blanco">White</string>
+    <string name="borrar">Delete</string>
+    <string name="carrocaro">Data of the most expensive car registred</string>
+    <string name="carrocaroreporte">The most expensive car is:</string>
+    <string name="carroeconomico">Data of the most economic car registered</string>
+    <string name="carroeconomicoreporte">D The most economical car is:</string>
+    <string name="carros">Cars</string>
+    <string name="chevrolet">Chevrolet</string>
+    <string name="color">Color:</string>
+    <string name="error">Saved successfully!</string>
+    <string name="errorplaca">Type the plaque!</string>
+    <string name="errorprecio">Type the price:</string>
+    <string name="ford">Ford</string>
+    <string name="guardar">Save</string>
+    <string name="marca">Brand</string>
+    <string name="negro">Black</string>
+    <string name="numerodecarros">N° Cars registered</string>
+    <string name="numerodecarrosRegistrados">The number of cars registered is:</string>
+    <string name="placa">Plaque:</string>
+    <string name="precio">Price:</string>
+    <string name="registarcarros">CAr registration!</string>
+    <string name="registrecarro">Car registration!</string>
+    <string name="registrodecarros">CAr registration</string>
+    <string name="reporte">Report</string>
+    <string name="rojo">red</string>
+    <string name="mazda">Mazda</string>
+</resources>

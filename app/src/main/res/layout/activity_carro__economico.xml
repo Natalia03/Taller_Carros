@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nataliamartinez.taller_3corte.Carro_Economico">
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="47dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="23dp"
+        android:text="@string/carroeconomicoreporte"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView25"
+        android:layout_alignStart="@+id/textView25"
+        android:layout_below="@+id/textView25"
+        android:layout_marginTop="30dp"
+        android:text="@string/placa"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="@string/marca"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView26"
+        android:layout_alignRight="@+id/textView26"
+        android:layout_alignEnd="@+id/textView26" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="@string/Modelo"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView27"
+        android:layout_alignRight="@+id/textView27"
+        android:layout_alignEnd="@+id/textView27" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/color"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView28"
+        android:layout_alignRight="@+id/textView28"
+        android:layout_alignEnd="@+id/textView28" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/precio"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView29"
+        android:layout_alignRight="@+id/textView29"
+        android:layout_alignEnd="@+id/textView29"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/txtPlacaEconomico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView26"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_toEndOf="@+id/textView26"
+        android:layout_toRightOf="@+id/textView26"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtMarcaEconomico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView27"
+        android:layout_alignEnd="@+id/txtPlacaEconomico"
+        android:layout_alignRight="@+id/txtPlacaEconomico"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtModeloEconomico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtMarcaEconomico"
+        android:layout_alignStart="@+id/txtMarcaEconomico"
+        android:layout_alignTop="@+id/textView28"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtColorEconomico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtModeloEconomico"
+        android:layout_alignRight="@+id/txtModeloEconomico"
+        android:layout_alignTop="@+id/textView29"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtPrecioEconomico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtColorEconomico"
+        android:layout_alignStart="@+id/txtColorEconomico"
+        android:layout_alignTop="@+id/textView30"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+</RelativeLayout>

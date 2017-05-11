@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtPlacaCarros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="21dp"
+        android:layout_toEndOf="@+id/imgFoto"
+        android:layout_toRightOf="@+id/imgFoto"
+        android:text="TextView"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imgFoto"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/chevrolet" />
+
+    <TextView
+        android:id="@+id/txtMarcaCarros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtPlacaCarros"
+        android:layout_alignStart="@+id/txtPlacaCarros"
+        android:layout_below="@+id/txtPlacaCarros"
+        android:layout_marginTop="11dp"
+        android:text="TextView"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtModeloCarro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtMarcaCarros"
+        android:layout_alignStart="@+id/txtMarcaCarros"
+        android:layout_below="@+id/txtMarcaCarros"
+        android:layout_marginTop="11dp"
+        android:text="TextView"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtPrecioCarro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgFoto"
+        android:layout_alignLeft="@+id/txtModeloCarro"
+        android:layout_alignStart="@+id/txtModeloCarro"
+        android:text="TextView"
+        android:textSize="20sp" />
+</RelativeLayout>

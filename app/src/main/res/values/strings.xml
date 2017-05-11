@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Taller_3Corte</string>
+    <string name="carros">CARROS</string>
+    <string name="reporte">Reporte</string>
+    <string name="Listarcarros">Listar Carros</string>
+    <string name="registarcarros">Registrar Carro</string>
+    <string name="registrodecarros">REGISTRO DE CARROS</string>
+    <string name="placa">Placa:</string>
+    <string name="marca">Marca:</string>
+    <string name="Modelo">Modelo:</string>
+    <string name="precio">Precio:</string>
+    <string name="color">Color:</string>
+    <string name="guardar">Guardar</string>
+    <string name="borrar">Borrar</string>
+    <string-array name="opciones">
+        <item>@string/registarcarros</item>
+        <item>@string/Listarcarros</item>
+        <item>@string/reporte</item>
+    </string-array>
+    <string name="ford">Ford</string>
+    <string name="chevrolet">Chevrolet</string>
+    <string name="kia">Kia</string>
+    <string name="mazda">Mazda</string>
+    <string-array name="marcas">
+        <item>@string/ford</item>
+        <item>@string/chevrolet</item>
+        <item>@string/kia</item>
+        <item>@string/mazda</item>
+    </string-array>
+    <string name="m2010">2010</string>
+    <string name="m2011">2011</string>
+    <string name="m2012">2012</string>
+    <string name="m2013">2013</string>
+    <string name="m2014">2014</string>
+    <string name="m2015">2015</string>
+    <string name="m2016">2016</string>
+    <string name="m2017">2017</string>
+    <string-array name="modelos">
+        <item>@string/m2010</item>
+        <item>@string/m2011</item>
+        <item>@string/m2012</item>
+        <item>@string/m2013</item>
+        <item>@string/m2014</item>
+        <item>@string/m2015</item>
+        <item>@string/m2016</item>
+        <item>@string/m2017</item>
+    </string-array>
+    <string name="negro">Negro</string>
+    <string name="azulT">Azul Turqui</string>
+    <string name="rojo">Rojo</string>
+    <string name="blanco">Blanco</string>
+
+    <string-array name="color">
+        <item>@string/negro</item>
+        <item>@string/azulT</item>
+        <item>@string/rojo</item>
+        <item>@string/blanco</item>
+    </string-array>
+
+    <string name="errorplaca">Digite la Placa!</string>
+    <string name="errorprecio">Digite el Precio!</string>
+    <string name="error">Guardado con Exito!</string>
+
+    <string name="numerodecarros">N° de Carros Registrados</string>
+    <string name="carrocaro">Datos del carro mas caro registrado</string>
+    <string name="carroeconomico">Datos del carro mas economico registrado</string>
+
+    <string-array name="registro">
+        <item>@string/numerodecarros</item>
+        <item>@string/carrocaro</item>
+        <item>@string/carroeconomico</item>
+    </string-array>
+
+    <string name="registrecarro">Registre Carro!</string>
+    <string name="carrocaroreporte">El carro mas caro es:</string>
+    <string name="carroeconomicoreporte">El carro mas economico es:</string>
+    <string name="numerodecarrosRegistrados">El numero de carros registrados es:</string>
+</resources>
